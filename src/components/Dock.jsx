@@ -22,11 +22,11 @@ const Dock = ( {windowsState,setWindowsState}) => {
         onClick={()=>{setWindowsState(state => ({...state,spotify:true})) }}
         className="icon spotify"><img src="/doc-icons/spotify.svg" alt="" /></div>
     <div 
-    onClick={()=>{window.open("mailto:himanshukumar1531b@gmail.com","_blank")}}
+    onClick={()=>{window.open("https://mail.google.com/mail/?view=cm&fs=1&to=himanshukumar1531b@gmail.com","_blank")}}
     className="icon mail"><img src="/doc-icons/mail.svg" alt="" /></div>
 
         <div 
-        onClick={()=>{window.open("https://www.linkedin.com/in/shibham-a4a963313?utm_source=share_via&utm_content=profile&utm_medium=member_android","_blank")}}
+        onClick={()=>{window.open("https://www.linkedin.com/in/shibham-a4a963313/","_blank")}}
         className="icon link"><img src="/doc-icons/link.svg" alt="" /></div>
 
             <div
@@ -45,3 +45,7 @@ const Dock = ( {windowsState,setWindowsState}) => {
 }
 
 export default Dock
+
+
+
+
